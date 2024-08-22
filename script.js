@@ -1,6 +1,6 @@
 // เริ่มต้นการเชื่อมต่อ WebSocket
-let webSocket = new WebSocket("ws://192.168.10.130:5000");
-// let webSocket = new WebSocket("ws://localhost:5000");
+// let webSocket = new WebSocket("ws://192.168.10.130:5000");
+let webSocket = new WebSocket("ws://localhost:5000");
 
 const pmValueElement = document.getElementById('pmValue');
 const smileyImageElement = document.getElementById('smileyImage');
