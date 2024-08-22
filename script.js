@@ -18,24 +18,24 @@ webSocket.onmessage = function(event) {
 
         if (pm <= 25) {
             color = "#0000FF";
-            imageSource = "/ImagePM/Img1.png";
-            backgroundImageSource = "/ImagePM/ImPM1.png";
+            imageSource = "./ImagePM/Img1.png";
+            backgroundImageSource = "./ImagePM/ImPM1.png";
         } else if (pm <= 37) {
             color = "#00FF00";
-            imageSource = "/ImagePM/Img2.png";
-            backgroundImageSource = "/ImagePM/ImPM2.png";
+            imageSource = "./ImagePM/Img2.png";
+            backgroundImageSource = "./ImagePM/ImPM2.png";
         } else if (pm <= 50) {
             color = "#FFFF00";
-            imageSource = "/ImagePM/Img3.png";
-            backgroundImageSource = "/ImagePM/ImPM3.png";
+            imageSource = "./ImagePM/Img3.png";
+            backgroundImageSource = "./ImagePM/ImPM3.png";
         } else if (pm <= 90) {
             color = "#FFA500";
-            imageSource = "/ImagePM/Img4.png";
-            backgroundImageSource = "/ImagePM/ImPM4.png";
+            imageSource = "./ImagePM/Img4.png";
+            backgroundImageSource = "./ImagePM/ImPM4.png";
         } else {
             color = "#FF0000";
-            imageSource = "/ImagePM/Img5.png";
-            backgroundImageSource = "/ImagePM/ImPM14.png";
+            imageSource = "./ImagePM/Img5.png";
+            backgroundImageSource = "./ImagePM/ImPM14.png";
         }
 
         if (containerElement.style.backgroundColor !== color) {
